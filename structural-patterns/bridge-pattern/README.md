@@ -1,3 +1,9 @@
+# Definition
+
+Decouple an abstraction or interface from its implementation so that the two can vary independently.
+Bridge makes a clear-cut between abstraction and implementation.
+
+
 # Bridge Pattern in E-commerce Product Search
 
 This project showcases the Bridge Pattern in an e-commerce application for product search functionality. The Bridge Pattern decouples the abstraction of product search from its various search engine implementations, allowing them to vary independently.
@@ -18,6 +24,8 @@ This project showcases the Bridge Pattern in an e-commerce application for produ
 
 4. **Client Code**:
    - `Driver`: Demonstrates usage of the Bridge Pattern.
+   -  The client code can use the ProductSearch abstraction to perform product searches with different search engine implementations without directly coupling to specific search engines, 
+      achieving flexibility and decoupling between abstraction and implementation.
 
 
 ## Where to Use:
