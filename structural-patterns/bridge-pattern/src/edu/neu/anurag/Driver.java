@@ -13,10 +13,10 @@ public class Driver {
 		Product shoe = new ClothingProduct(4, "Nike Shoe", "Shoe", ProductTypeEnum.CLOTHING_FASHION);
 		ProductSearch productSearch;
 		if(searchType==ProductTypeEnum.ELECTRONICS) {
-			productSearch = new ProductSearchImpl(elasticSearchEngine);
+			productSearch = new ProductSearchImpl(elasticSearchEngine,new HashMapCache());
 			productSearch.searchProducts("Laptop");
 		}else if(searchType==ProductTypeEnum.CLOTHING_FASHION) {
-			productSearch = new ProductSearchImpl(luceneSearchEngine);
+			productSearch = new ProductSearchImpl(luceneSearchEngine,new HashMapCache());
 			productSearch.searchProducts("Laptop");
 		}
         
