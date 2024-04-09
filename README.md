@@ -27,4 +27,4 @@ The repository includes:
 - **Bridge:** Decouples an abstraction from its implementation so that the two can vary independently.
 
 ## Usage
-Each design pattern is organized within its respective directory, containing implementation examples in various programming languages. Feel free to explore the examples, study the code, and adapt it to your projects as needed.
+Each design pattern is organized within its respective directory, containing implementation examples in Java.
